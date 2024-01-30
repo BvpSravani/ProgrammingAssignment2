@@ -28,6 +28,4 @@ cacheSolve <- function(x, ...) {
                 inv
 }
 
-m<-matrix(rnorm(16), 4, 4)
-m1<-makeCasheMatrix(m)
-cacheSolve(m1)
+
